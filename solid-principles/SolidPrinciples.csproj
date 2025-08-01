@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="4 - InterfaceSegregation\" />
-    <Folder Include="5 - DependencyInversion\" />
   </ItemGroup>
 
 </Project>
