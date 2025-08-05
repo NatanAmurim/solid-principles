@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode", "CleanCode\Clea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples", "SolidPrinciples\SolidPrinciples.csproj", "{BACFEC86-66AC-8B52-FD24-B3383B14A999}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{1B6F3B95-DA21-4E53-BEF4-A695886F4EA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BACFEC86-66AC-8B52-FD24-B3383B14A999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BACFEC86-66AC-8B52-FD24-B3383B14A999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BACFEC86-66AC-8B52-FD24-B3383B14A999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6F3B95-DA21-4E53-BEF4-A695886F4EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6F3B95-DA21-4E53-BEF4-A695886F4EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6F3B95-DA21-4E53-BEF4-A695886F4EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6F3B95-DA21-4E53-BEF4-A695886F4EA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
