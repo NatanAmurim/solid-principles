@@ -23,4 +23,9 @@ git status
 git add .
 git rebase --continue
 
+# Comandos cherry-pick e stash
+cherry-pick:	Copiar commits específicos entre branches
+stash:	Guardar e restaurar alterações não commitadas
+
+
 # Comentários
