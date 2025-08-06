@@ -1,11 +1,11 @@
-🚀 Git Rebase (atualizar minha branch)
+# 🚀 Git Rebase (atualizar minha branch)
 
 git checkout minha-branch
 git fetch origin
 git rebase origin/main
 
 
-🧠 Git Rebase Interativo
+# 🧠 Git Rebase Interativo
 git rebase -i HEAD~3
 
 Comandos úteis:
@@ -14,12 +14,11 @@ reword: mudar mensagem
 squash: juntar com o anterior
 drop: remover o commit
 
-🧽 Desfazer rebase
+# 🧽 Desfazer rebase
 git rebase --abort
 
-💥 Resolver conflitos no rebase
-# após conflito
+# 💥 Resolver conflitos no rebase
+
 git status
-# resolve o arquivo
 git add .
 git rebase --continue
