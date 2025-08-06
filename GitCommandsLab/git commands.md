@@ -22,3 +22,5 @@ git rebase --abort
 git status
 git add .
 git rebase --continue
+
+# Comentários
