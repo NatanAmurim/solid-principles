@@ -5,4 +5,5 @@ Console.WriteLine("Hello, World!");
 //Comentário 2 sem bug
 //Comentário 3 com bug
 //Comentário 4 sem bug
+//Comentário 5 sem bug
 Console.WriteLine($"Soma de 1 + 1 = { 1 + 2 }");
