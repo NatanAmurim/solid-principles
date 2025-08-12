@@ -18,7 +18,6 @@ namespace CacheDemo.Application
 
         public async Task SetProduct(string cacheKey, string product)
         {
-
             await productMemoryCache.SetProduct(cacheKey, product);
             await distribuitedProductCache.SetProduct(cacheKey, product);
         }

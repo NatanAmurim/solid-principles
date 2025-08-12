@@ -13,7 +13,11 @@ namespace CacheDemo.Infra
 
         public Task SetProduct(string cacheKey, string product)
         {
-            memoryCache.Set(cacheKey, product);
+            memoryCache.Set(cacheKey, product, new MemoryCacheEntryOptions 
+            { 
+                // Se o cache não for utilizado no tempo determinado, ele será apagado e renovado na próxima requisição.
+                SlidingExpiration = TimeSpan.FromSeconds(10)
+            });
             return Task.CompletedTask;
         }
     }

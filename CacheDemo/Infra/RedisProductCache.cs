@@ -23,7 +23,12 @@ namespace CacheDemo.Infra
         {
             try
             {
-                await distributedCache.SetStringAsync(cacheKey, product);
+                await distributedCache.SetStringAsync(cacheKey, product, new DistributedCacheEntryOptions
+                {
+                    //Após o tempo de expiração a partir da primeira requisição
+                    //O cache será apagado.
+                    AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10)
+                });
             }
             catch (Exception)
             {
