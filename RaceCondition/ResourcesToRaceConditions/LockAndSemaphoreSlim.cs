@@ -1,6 +1,6 @@
-﻿namespace RaceCondition
+﻿namespace RaceCondition.ResourcesToRaceConditions
 {
-    public class ExamplesAndResolutions
+    public class LockAndSemaphoreSlim
     {
         /// <summary>
         /// Aqui temos um exemplo de race condition, duas ou mais threads irão acessar o count ao mesmo tempo o que fará com que o resultado não seja o esperado.
